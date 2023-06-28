@@ -32,7 +32,7 @@ from selenium.webdriver.chrome.options import Options
 ```
 
 Continuous Cloud Testing expands Selenium's capabilities and allows better control over the device and test.
-See [Capabilities in Appium Based Tests](https://docs.experitest.com/display/TE/Capabilties+in+Appium+Based+Tests) to learn how to customize the desired capabilities for your tests.
+See [Capabilities in Selenium Tests](https://docs.experitest.com/display/TE/Capabilities+In+Selenium+Tests) to learn how to customize the desired capabilities for your tests.
 
 ## Documentation
 To find out more about Continuous Cloud Testing usage, features, and best practices, visit our online [documentation](https://docs.experitest.com/display/TE/Test+Execution+Home).
