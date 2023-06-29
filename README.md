@@ -25,7 +25,7 @@ python -m unittest
 ```
 
 ## Desired Capabilities
-In this example we use browser options to run a test on chrome. Import a different browser options class to run your test on a different browser.
+In this example we use browser options to run a test on Chrome. Import a different browser options class to run your test on a different browser.
 
 ```
 from selenium.webdriver.chrome.options import Options
@@ -35,7 +35,7 @@ Continuous Cloud Testing expands Selenium's capabilities and allows better contr
 See [Capabilities in Selenium Tests](https://docs.experitest.com/display/TE/Capabilities+In+Selenium+Tests) to learn how to customize the desired capabilities for your tests.
 
 ## Documentation
-To find out more about Continuous Cloud Testing usage, features, and best practices, visit our online [documentation](https://docs.experitest.com/display/TE/Test+Execution+Home).
+To find out more about Continuous Cloud Testing usage, features, and best practices, see our online [documentation](https://docs.experitest.com/display/TE/Test+Execution+Home).
 
 ## Support
 If you encounter an issue that is not covered here or in our online documentation, contact us at [support@digital.ai](mailto:support@digital.ai).
