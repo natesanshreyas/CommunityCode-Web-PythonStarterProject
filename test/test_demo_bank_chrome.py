@@ -33,8 +33,8 @@ class TestDemoBank(base_test.BaseTest):
         self.driver.find_element(By.XPATH, "//input[@name='NAME']").send_keys('John')
         self.driver.find_element(By.XPATH, "//input[@name='PHONE']").send_keys('1-234-5678')
         self.driver.find_element(By.XPATH, "//input[@name='AMOUNT']").send_keys('1000')
-        self.driver.find_element(By.XPATH, "//input[@name='COUNTRY']/..").click()
-        self.driver.find_element(By.XPATH, "//*[text()='INDIA']").click()
+        self.driver.find_element(By.XPATH, "//*[@data-auto='country']").click()
+        self.driver.find_element(By.XPATH, "//*[text()='India']").click()
         self.driver.find_element(By.XPATH, "//*[@data-auto='transfer-button']").click()
 
     def tearDown(self):
