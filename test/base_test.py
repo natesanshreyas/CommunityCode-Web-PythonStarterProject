@@ -10,7 +10,7 @@ class BaseTest(unittest.TestCase):
     config.read('cloud.properties')
 
     def setUp(self):
-        self.options.set_capability('experitest:accessKey', self.config.get('cloud', 'accessKey'))
+        self.options.set_capability('digitalai:accessKey', self.config.get('cloud', 'accessKey'))
 
     def getUrl(self):
         url = self.config.get('cloud', 'url')

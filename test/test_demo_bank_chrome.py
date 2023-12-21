@@ -16,7 +16,7 @@ class TestDemoBank(base_test.BaseTest):
     def setUp(self):
         super().setUp()
 
-        self.options.set_capability('experitest:testName', self.testName)
+        self.options.set_capability('digitalai:testName', self.testName)
         self.driver = webdriver.Remote(self.getUrl(), options=self.options)
 
     def testQuickStartIosNativeDemo(self):
